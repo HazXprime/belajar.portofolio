@@ -4,13 +4,13 @@
  */
 export const siteConfig = {
   developer: {
-    name: "Alex Morgan", // [EDITABLE PLACEHOLDER]: Replace with developer's real name
+    name: "Sunaryo Adi Putra", // [EDITABLE PLACEHOLDER]: Replace with developer's real name
     title: "Full-Stack Developer",
-    handle: "alexmorgan.dev",
+    handle: "Adiputra.dev",
     location: "Jakarta, Indonesia / Remote", // [EDITABLE PLACEHOLDER]
     availabilityStatus: "Open to Junior Full-Stack & Frontend Opportunities",
     isAvailable: true,
-    email: import.meta.env.VITE_CONTACT_EMAIL || "alex.morgan.dev@example.com",
+    email: import.meta.env.VITE_CONTACT_EMAIL || "adiputrayy1927@gmail.com",
     githubUrl: "https://github.com/placeholder-dev", // [EDITABLE PLACEHOLDER]
     linkedinUrl: "https://linkedin.com/in/placeholder-dev", // [EDITABLE PLACEHOLDER]
     bioShort: "Building reliable, accessible, and performant web experiences from database queries to interactive interfaces.",
