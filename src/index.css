@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #07110D;
+    --bg-secondary: #0B1711;
+    --bg-card: #102019;
+    --accent-primary: #22C55E;
+    --accent-secondary: #10B981;
+    --border: #20382B;
+    --text-primary: #F0FDF4;
+    --text-secondary: #A7B9AD;
+  }
+
+  body {
+    background-color: #07110D;
+    color: #F0FDF4;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar matching dark tech theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #07110D;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #20382B;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2E523F;
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .bg-grid-tech {
+    background-size: 28px 28px;
+    background-image: radial-gradient(rgba(34, 197, 94, 0.09) 1px, transparent 1px);
+  }
+
+  .border-glow {
+    box-shadow: 0 0 15px -3px rgba(34, 197, 94, 0.15);
+  }
+}
