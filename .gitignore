@@ -4,5 +4,7 @@ dist-ssr
 *.local
 .env
 .env.production
+*.db
+*.db-journal
 .DS_Store
 Thumbs.db

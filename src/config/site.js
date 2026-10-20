@@ -7,7 +7,7 @@ export const siteConfig = {
     name: "Sunaryo Adi Putra", // [EDITABLE PLACEHOLDER]: Replace with developer's real name
     title: "Full-Stack Developer",
     handle: "Adiputra.dev",
-    location: "Jakarta, Indonesia / Remote", // [EDITABLE PLACEHOLDER]
+    location: "Cilacap, Indonesia / Remote", // [EDITABLE PLACEHOLDER]
     availabilityStatus: "Open to Junior Full-Stack & Frontend Opportunities",
     isAvailable: true,
     email: import.meta.env.VITE_CONTACT_EMAIL || "adiputrayy1927@gmail.com",
@@ -32,7 +32,7 @@ export const siteConfig = {
     highlights: [
       { label: "Focus", value: "Modern React & Node.js ecosystem" },
       { label: "Approach", value: "Maintainable, accessible, security-conscious" },
-      { label: "Learning", value: "Docker workflows & Microservices patterns" },
+      { label: "Learning", value: "Docker workflows& Microservices patterns" },
       { label: "Availability", value: "Full-time & Contract roles" }
     ]
   },

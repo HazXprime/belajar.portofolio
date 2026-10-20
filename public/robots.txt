@@ -1,4 +1,7 @@
 User-agent: *
+Disallow: /admin
+Disallow: /api/admin
+Disallow: /api/auth
 Allow: /
 
 Sitemap: https://your-portfolio-domain.vercel.app/sitemap.xml
